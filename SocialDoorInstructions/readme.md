@@ -15,7 +15,15 @@ These are the instructions for how to build the social door
 
 <br>
 <br>
+3. Solder headers on the Adalogger board<br>
+<img width="500" alt="{25E648AC-D910-407F-9BE0-D078B3C230B7}" src="https://github.com/user-attachments/assets/d25bcb0d-9c10-4510-beab-0870d37eebdb" />
+<img width="500" alt="{9023BA0C-F666-4E2E-BF46-3512A80FED85}" src="https://github.com/user-attachments/assets/b87a63a1-ebc9-43ab-9c90-fa1c5b534e04" />
+
+<br>
+<br>
+
 3. Solder key parts on PCB <br>
 <img width="500" height="350" src="https://github.com/user-attachments/assets/53bf3733-9103-43f9-85d4-6a6bcecca483" />  
 <img width="500" height="350" src="https://github.com/user-attachments/assets/5a1d0375-ec48-4825-b620-a19b71d87875" />
 
+4. 
