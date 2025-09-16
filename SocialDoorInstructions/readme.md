@@ -1,7 +1,5 @@
 These are the instructions for how to build the social door  <br>
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/b8f89872-aa90-41c0-b02e-327e081643df" />  
-
 1. Print all the necessary 3D parts (door frame x1, sliding door x1, door holder x2, holder ring x2, gear x1)<br>
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/b1a3faff-019e-469d-88d2-8d6409834e4e" />  
