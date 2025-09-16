@@ -168,4 +168,9 @@ You should be able to see the proximity sensor (pointed by blue arrow) through t
 <br>
 <br>
 
-All done! Congrats!! For the next step, you can flash the code on the adalogger board and test the door.
+All done! Congrats!! For the next step, you can flash the code on the adalogger board and test the door.<br>
+<br>
+The screen will show battery level, date and time, device number, proximity sensor 1 reading (left cage), proximity sensor 2 reading (right cage), number of door openings, seconds have passed since last event.<br>
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/d07b6b97-99d9-4d34-a7d7-a2719869d967" />
+
+
