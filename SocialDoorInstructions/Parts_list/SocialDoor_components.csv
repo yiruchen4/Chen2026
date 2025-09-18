@@ -10,8 +10,11 @@ Lithium Ion Battery Pack - 3.7V 4400mAh,1,19.95,19.95,https://www.adafruit.com/p
 SD card,1,9.95,9.95,https://www.adafruit.com/product/1294,Any microSD card should work
 9mm x 150mm LML9B Miniature Linear Sliding Guide Rail with a 2cm x 3 cm Stainless Steel Carriage Block,1,12.48,12.48,https://www.amazon.com/dp/B07GQ8YNDL,
 "Micro Limit Switch KW12-3 (AC 250V 5A SPDT, 1 NO 1 NC) with Roller Lever Arm",1,5.98,0.598,https://www.amazon.com/dp/B07X142VGC,Price is for 10 of these - you only need 1 per door
-M3x16mm machine screws & nuts,2,7.19,0.239666667,https://www.amazon.com/uxcell-M3x10mm-Phillips-Stainless-Fasteners/dp/B07MF2ZTBG,Price is for 30 of these - you only need 2 per door
-M2x10mm machine screws & nuts,4,, ,,
+M3x16mm machine bolts & nuts,2,6.49,0.432667,https://a.co/d/36Bomc2,Price is for 30 of these - you only need 2 per door
+M3x6mm machine bolts,2,7.49,0.2996,https://a.co/d/36Bomc2, Price is for 50 of these - you only need 2 per door
+M2x8mm machine bolts,2,6.99,0.1398,https://a.co/d/9AFwrPx,Price is for 100 of these - you only need 2 per door
+M2x10mm machine bolts,2,7.88,0.1598,https://a.co/d/6EX8Dz0,Price is for 100 of these - you only need 2 per door
+M2 hex nuts,4,5.49,0.2196,https://a.co/d/5BaQEry,Price is for 100 of these - you only need 4 per door
 6 pin DIP IC Chip Socket,1,4.69,0.469,https://www.amazon.com/Rebower-Socket-Adapter-Soldering-Circuit/dp/B0BKXWZM7F,Price is for 10 of these - you only need 1 per door
 LCA715 solid state relay,1,5.85,5.85,https://www.digikey.com/en/products/detail/littelfuse-inc/LCA715/1973278,
 JST 2 pin right angle male connector,1,0.1,0.1,https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626,
@@ -23,5 +26,6 @@ Custom fabricated parts:,,,,,
 Custom printed circuit board,1,9.35,3.116666667,"See ""Circuit_board"" folder",Price is for 3 boards but you only need one for each door.  We made these with OshPark but any board fabrication facility will do
 ,,,,,
 Total cost per door,,,154.35,,
+
 
 
