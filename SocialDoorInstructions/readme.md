@@ -253,7 +253,7 @@ Secure the assembly in place with the door rings.
 ## ✅ Finished!  
 
 All done! Congrats!! For the next step, you can flash the code on the adalogger board, insert a SD card, and test the door.  
-Special code needs to be flashed on PCF8523 (See "ArduinoCode" folder).  
+Special code needs to be flashed on PCF8523 (See "Arduino_code" folder).  
 
 The screen will display:  
 - Battery level  
