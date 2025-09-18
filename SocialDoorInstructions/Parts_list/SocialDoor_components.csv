@@ -4,7 +4,7 @@ Header Kit for Feather - 12-pin and 16-pin Female Header Set,1,0.95,0.95,https:/
 Adafruit PCF8523 Real Time Clock Breakout Board - STEMMA QT / Qwiic,1,4.95,4.95,https://www.adafruit.com/product/5189, It will need a CR1220 battery
 3V Lithium Coin Cell Battery CR1220,1,5.99,0.6,https://a.co/d/9wAZtmF,Price is for 10 of these - you only need 1 per door
 Adafruit FeatherWing OLED - 128x64 OLED Add-on For Feather - STEMMA QT / Qwiic,1,14.95,14.95,https://www.adafruit.com/product/4650,
-Stacking Headers for Feather - 12-pin and 16-pin female headers,1,1.25,1.25,https://www.adafruit.com/product/2830,
+Stacking Headers for Feather - 12-pin and 16-pin female headers,1,1.25,1.25,https://www.adafruit.com/product/2830, It comes with a male header set
 Adafruit VL6180X Time of Flight Distance Ranging Sensor (VL6180) - STEMMA QT,2,13.95,27.9,https://www.adafruit.com/product/3316,
 Right-angle male header,1,5.95,0.05,https://www.adafruit.com/product/1540,Price is for 10 packs of 36-pin strips and you only need 3 pins per door (by breaking off a 3-pin segment)
 JST PH 2-Pin Cable - Female Connector 100mm,1,0.75,0.75,https://www.adafruit.com/product/261,
@@ -31,6 +31,7 @@ Custom printed circuit board,1,9.35,3.116666667,"See ""Circuit_board"" folder",P
 (audio connector for single input or wires for multiple inputs are not included but they cost less than $1),,,,,
 ,,,,,
 Total cost per door,,,157.665,,
+
 
 
 
