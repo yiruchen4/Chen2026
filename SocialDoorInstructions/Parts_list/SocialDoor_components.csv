@@ -22,6 +22,11 @@ M2 hex nuts,4,5.49,0.2196,https://a.co/d/5BaQEry,Price is for 100 of these - you
 LCA715 solid state relay,1,5.85,5.85,https://www.digikey.com/en/products/detail/littelfuse-inc/LCA715/1973278,
 JST 2 pin right angle male connector,1,0.1,0.1,https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626,
 Micro Slide Switch,1,5.99,0.05,https://a.co/d/954UM22,Price is for 120 of these - you only need 1 per door
+Dupont Wires 30cm Male to Female,1,6.99,0.17475,https://a.co/d/hKMXMZ2,Price is for 40 of these - you only need 1 per door
+Round Magnets 8x2mm,1,7.99,2.2372,https://a.co/d/77rfzpL, Price is for 50 of these - you need 14 per door
+STEMMA QT / Qwiic JST SH 4-pin Cable - 50mm Long,1,0.95,0.95,https://www.adafruit.com/product/4399,
+STEMMA QT / Qwiic JST SH 4-pin Cable - 100mm Long,1,0.95,0.95,https://www.adafruit.com/product/4210,
+STEMMA QT / Qwiic JST SH 4-pin Cable - 200mm Long,1,1.25,1.25,https://www.adafruit.com/product/4401,
 ,,,,,
 Custom fabricated parts:,,,,,
 "3D prints (Doorframe, sliding door, servo gear, door holder & ring)",1,5,5,"See ""3D_designs"" folder",Price is estimatedWe print in PLA+ with  Bambu labs X1C or H2D
@@ -30,7 +35,8 @@ Custom printed circuit board,1,9.35,3.116666667,"See ""Circuit_board"" folder",P
 ,,,,,
 (audio connector for single input or wires for multiple inputs are not included but they cost less than $1),,,,,
 ,,,,,
-Total cost per door,,,157.665,,
+Total cost per door,,,163.227,,
+
 
 
 
