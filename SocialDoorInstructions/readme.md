@@ -7,21 +7,21 @@ Follow these steps to assemble the social door system.
 ## 📑 Table of Contents
 1. [Print the 3D Parts](#1-print-the-3d-parts)  
 2. [Assemble the Sliding Door](#2-assemble-the-sliding-door)  
-3. [Solder Headers on the Adalogger Board](#3-solder-headers-on-the-adalogger-board)  
+3. [Solder Headers on the Adalogger Board](#3-solder-female-headers-on-the-adalogger-board)  
 4. [Solder Key Parts on the PCB](#4-solder-key-parts-on-the-pcb)  
-5. [Solder Headers on the Screen Board](#5-solder-headers-on-the-screen-board)  
-6. [Assemble the Screen, PCB, and Adalogger](#6-assemble-the-screen-pcb-and-adalogger)  
-7. [Solder JST 2-Pin Cable to the Limit Switch](#7-solder-jst-2-pin-cable-to-the-limit-switch)  
-8. [Install Gear on Motor Servo](#8-install-gear-on-motor-servo)  
-9. [Connect Limit Switch & Servo to PCB](#9-connect-limit-switch--servo-to-pcb)  
-10. [Wire Proximity Sensor to PROX2 Connector](#10-wire-proximity-sensor-to-prox2-connector)  
+5. [Solder Headers on the Screen Board](#5-solder-male-headers-on-the-screen-board)  
+6. [Solder JST 2-Pin Cable to the Limit Switch](#6-solder-jst-2-pin-cable-to-the-limit-switch)  
+7. [Install Gear on Motor Servo](#7-install-gear-on-motor-servo)  
+8. [Connect Limit Switch & Servo to PCB](#8-connect-limit-switch--servo-to-pcb)  
+9. [Assemble the Screen, PCB, and Adalogger](#9-assemble-the-screen-pcb-and-adalogger)
+10. [Solder a connector cable on one VL6190 proximity sensor](#10-solder-a-connector-cable-matching-the-cable-connector-on-prox2-from-step-4-on-one-vl6180-proximity-sensor-at-xshut)  
 11. [Gather All Electronics](#11-gather-all-electronics)  
-12. [Assemble Sliding Door onto Frame](#12-assemble-sliding-door-onto-frame)  
+12. [Assemble Sliding Door onto Frame](#12-assemble-sliding-door-onto-door-frame)  
 13. [Route Wires Through Feedthroughs](#13-route-wires-through-feedthroughs)  
 14. [Fixate the Limit Switch on the Door](#14-fixate-the-limit-switch-on-the-door)  
 15. [Install Motor Servo](#15-install-motor-servo)  
 16. [Organize Wires](#16-organize-wires)  
-17. [Print Door Holders & Rings](#17-print-door-holders--rings)  
+17. [Assemble Door Holders & Rings](#17-assemble-door-holders--rings)  
 18. [Glue Magnets](#18-glue-magnets)  
 19. [Mount Proximity Sensors](#19-mount-proximity-sensors)  
 20. [Drill Cage Holes](#20-drill-cage-holes)  
@@ -42,7 +42,7 @@ Follow these steps to assemble the social door system.
 ---
 
 ## 2. Assemble the Sliding Door  
-Attach the guiding rail to the 3D-printed sliding door using two screws.  
+Attach the guiding rail to the 3D-printed sliding door using two bolts.  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/f9893987-b11d-4687-92ca-d13dd58ef95a" width="45%" />
@@ -51,7 +51,7 @@ Attach the guiding rail to the 3D-printed sliding door using two screws.
 
 ---
 
-## 3. Solder Headers on the Adalogger Board  
+## 3. Solder Female Headers on the Adalogger Board  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/f7f7f8b5-84f6-489f-82af-dd0fba8264f9" width="45%" />
@@ -61,7 +61,6 @@ Attach the guiding rail to the 3D-printed sliding door using two screws.
 ---
 
 ## 4. Solder Key Parts on the PCB  
-Also solder a cable connector to **PROX2** (for the proximity sensor in Step 10).  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/53bf3733-9103-43f9-85d4-6a6bcecca483" width="45%" />
@@ -73,13 +72,14 @@ Also solder a cable connector to **PROX2** (for the proximity sensor in Step 10)
   <img src="https://github.com/user-attachments/assets/615c9a4e-82b7-4678-bfcf-3889ac4f25fb" width="45%" />
 </p>
 
-Prox2 connector:  
+Also solder a cable connector to **PROX2** (for the proximity sensor in Step 10). 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/fc3768d6-df0e-4a90-8bfc-3d1ec84b2e99" width="45%" />
   <img src="https://github.com/user-attachments/assets/8a515353-8249-4a63-a098-397339eaaac2" width="45%" />
 </p>
 
-Inputs:  
+ 
+You can have two separate inputs soldered on T1 & T2 (left) or a single input from other devices connected by audio cable (right).    
 <p float="left">
   <img src="https://github.com/user-attachments/assets/bffb9aeb-14b0-4a23-81f3-94ca9b860f31" width="45%" />
   <img src="https://github.com/user-attachments/assets/95413b56-a388-4163-824b-4a7e9836ad74" width="45%" />
@@ -87,7 +87,7 @@ Inputs:
 
 ---
 
-## 5. Solder Headers on the Screen Board  
+## 5. Solder Male Headers on the Screen Board  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/e063ef8d-93b5-4a89-b78e-45408f57cb70" width="45%" />
@@ -96,13 +96,7 @@ Inputs:
 
 ---
 
-## 6. Assemble the Screen, PCB, and Adalogger  
-
-<img src="https://github.com/user-attachments/assets/d26396bd-710d-4082-b2de-ad9e2493743b" width="40%" />
-
----
-
-## 7. Solder JST 2-Pin Cable to the Limit Switch  
+## 6. Solder JST 2-Pin Cable to the Limit Switch  
 - Red wire → middle pin  
 - Black wire → pin farthest from roller  
 
@@ -110,13 +104,13 @@ Inputs:
 
 ---
 
-## 8. Install Gear on Motor Servo  
+## 7. Install Gear on Motor Servo  
 
 <img src="https://github.com/user-attachments/assets/f101a427-8f81-4508-b420-30ebd819245a" width="40%" />
 
 ---
 
-## 9. Connect Limit Switch & Servo to PCB  
+## 8. Connect Limit Switch & Servo to PCB  
 
 *(Ensure connectors are fully plugged in.)*  
 
@@ -124,16 +118,25 @@ Inputs:
 
 ---
 
-## 10. Wire Proximity Sensor to PROX2 Connector  
+## 9. Assemble the Screen, PCB, and Adalogger
+
+<img src="https://github.com/user-attachments/assets/d26396bd-710d-4082-b2de-ad9e2493743b" width="40%" />
+
+---
+
+## 10. Solder a connector cable matching the cable connector on PROX2 (from Step 4) on one VL6180 proximity sensor at XSHUT  
 
 <img src="https://github.com/user-attachments/assets/0731bf5f-79e0-4f90-8ff0-44f7c6b6bc0c" width="45%" />
 
 ---
 
 ## 11. Gather All Electronics  
-- 2× VL6190 sensors (one wired to XSHUT)  
+- 2× VL6180 sensors (one wired to XSHUT from Step 10)  
 - Real-time clock PCF8523  
 - 3× 4-pin cables (50mm, 100mm, 200mm)  
+50 mm 4-pin cable connects the Screen and PCF8523   
+200 mm 4-pin cable connects PCF8523 and VL6180 with wired XSHUT  
+100 mm 4-pin cable connects VL6180 with wired XSHUT and unwired VL6180  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/7b4b47ec-69cc-4e38-a195-bb1cc9e77b5e" width="45%" />
@@ -142,7 +145,7 @@ Inputs:
 
 ---
 
-## 12. Assemble Sliding Door onto Frame  
+## 12. Assemble Sliding Door onto Door Frame  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/57841605-b830-47df-841e-76d6209bd1a8" width="45%" />
@@ -155,14 +158,15 @@ Inputs:
 
 ## 13. Route Wires Through Feedthroughs  
 
+Electronics can be secured with hot glue  
 <img src="https://github.com/user-attachments/assets/281bd2c1-db56-4ed4-a51c-48195a8e6416" width="60%" />
 
 ---
 
 ## 14. Fixate the Limit Switch on the Door  
 
-⚠️ Adjust roller arm/height so button is triggered properly.  
-⚠️ Ensure screws don’t obstruct sliding path.  
+⚠️ Adjust roller arm/height so red button is triggered properly.  
+⚠️ Ensure bolts (pointed by blue arrows) don’t obstruct sliding path (red dashed line).  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/59aeed3d-801c-44d0-94ad-e2f6418b2ed5" width="45%" />
@@ -176,8 +180,7 @@ Inputs:
 ## 15. Install Motor Servo  
 
 Mount with screws and nut → push servo into holder → tighten fully.  
-Make sure gear engages sliding door teeth.  
-
+ 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/694c2ade-4ab5-483f-8809-c90ff027cca6" width="45%" />
   <img src="https://github.com/user-attachments/assets/8c06f86c-ac9a-460f-8e85-f3b7e9b7bb9c" width="45%" />
@@ -185,9 +188,10 @@ Make sure gear engages sliding door teeth.
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/8c7736dc-ad23-4162-b481-07b0532e7006" width="45%" />
-  <img src="https://github.com/user-attachments/assets/a36a53da-aa03-47c6-8283-fdab3940b5f8" width="45%" />
+  <img src="https://github.com/user-attachments/assets/a36a53da-aa03-47c6-8283-fdab3940b5f8" width="40%" />
 </p>
 
+Make sure servo gear is fully engaged with the sliding door teeth  
 <img src="https://github.com/user-attachments/assets/a1a58238-eb12-4d1b-99d5-c447d56a1ead" width="50%" />
 
 ---
@@ -198,8 +202,9 @@ Make sure gear engages sliding door teeth.
 
 ---
 
-## 17. Print Door Holders & Rings  
+## 17. Assemble Door Holders & Rings  
 
+Glue the metal protectors  
 <p float="left">
   <img src="https://github.com/user-attachments/assets/5f8b9d9d-0d08-406d-95a9-4fe2d052499f" width="45%" />
   <img src="https://github.com/user-attachments/assets/94a0f493-4be0-4475-b8a1-bf1ac39d9a54" width="45%" />
@@ -220,8 +225,8 @@ Ensure correct polarity (must attract).
 ---
 
 ## 19. Mount Proximity Sensors  
-
-⚠️ Ensure visibility through window.  
+Proximity sensors are secured with hot glue; there are holes on the door frame to locate the sensor's location  
+⚠️ Ensure visibility through the window (pointed by blue arrow). It is critical that the sensors are not obstructed, as clear visibility is essential for the experiment  
 
 <img src="https://github.com/user-attachments/assets/058c5e5a-513f-4ef0-a78e-9842ee97c608" width="45%" />
 
@@ -229,7 +234,7 @@ Ensure correct polarity (must attract).
 
 ## 20. Drill Cage Holes  
 
-- 5.4 cm hole on cage sides (same height)  
+- Drill one 5.4-cm hole on either the right or left side of the home cages to make a pair (ensure the holes are drilled at the same height in both cages for proper alignment)  
 - Optional: small hole for wires coming in and out 
 
 <p float="left">
@@ -240,14 +245,15 @@ Ensure correct polarity (must attract).
 ---
 
 ## 21. Install Door Between Cages  
-
+Secure the assembly in place with the door rings.  
 <img src="https://github.com/user-attachments/assets/e6ee93ab-d896-4040-b437-3c4be3dfd0f8" width="60%" />
 
 ---
 
 ## ✅ Finished!  
 
-Flash the code onto the Adalogger and test the door.  
+All done! Congrats!! For the next step, you can flash the code on the adalogger board, insert a SD card, and test the door.  
+Special code needs to be flashed on PCF8523 (See "ArduinoCode" folder).  
 
 The screen will display:  
 - Battery level  
