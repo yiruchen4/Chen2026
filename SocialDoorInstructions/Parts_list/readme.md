@@ -1,2 +1,2 @@
 ## Parts List
-[Click here to view the SocialDoor components CSV](./SocialDoor_components.csv)
+[Click here to view the Parts list for building a social door](./SocialDoor_components.csv)
