@@ -178,7 +178,7 @@ You can have two separate inputs soldered on T1 & T2 (left) or a single input fr
 
 ## 12. Assemble Sliding Door onto Door Frame  
 
-- Two M3x16mm machine bolts & nuts
+- Two M3x16mm machine bolts & nuts (at 1st and 4th holes from left)
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/57841605-b830-47df-841e-76d6209bd1a8" width="45%" />
