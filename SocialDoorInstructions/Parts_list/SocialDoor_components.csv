@@ -18,14 +18,16 @@ M2 hex nuts,4,5.49,0.2196,https://a.co/d/5BaQEry,Price is for 100 of these - you
 6 pin DIP IC Chip Socket,1,4.69,0.469,https://www.amazon.com/Rebower-Socket-Adapter-Soldering-Circuit/dp/B0BKXWZM7F,Price is for 10 of these - you only need 1 per door
 LCA715 solid state relay,1,5.85,5.85,https://www.digikey.com/en/products/detail/littelfuse-inc/LCA715/1973278,
 JST 2 pin right angle male connector,1,0.1,0.1,https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626,
-3 pin right angle male header,1,,,,
+Micro Slide Switch,1,5.99,0.05,https://a.co/d/954UM22,Price is for 120 of these - you only need 1 per door
+3 pin right angle male header,1,5.95,0.05,https://www.adafruit.com/product/1540?srsltid=AfmBOoq26buH5hEpG3J-0PA6XNorUdUTh3HtXht7maW8nq31pQzs8534,Price is for 10 packs of 36-pin strips, you only need 3 pins per door (by breaking off a 3-pin segment)
 ,,,,,
 Custom fabricated parts:,,,,,
 "3D prints (Doorframe, sliding door, servo gear, door holder & ring)",1,5,5,"See ""3D_designs"" folder",Price is estimatedWe print in PLA+ with  Bambu labs X1C or H2D
 "Metal parts (interaction window, sensor protector)",1,20,20,"See ""Laser_cutting"" folder",Price is estimated. We cut these in 316 or 304 stainless steel using LaserBros
 Custom printed circuit board,1,9.35,3.116666667,"See ""Circuit_board"" folder",Price is for 3 boards but you only need one for each door.  We made these with OshPark but any board fabrication facility will do
 ,,,,,
-Total cost per door,,,154.35,,
+Total cost per door,,,155.36,,
+
 
 
 
