@@ -75,7 +75,8 @@ Attach the guiding rail to the 3D-printed sliding door using two bolts.
 - 6 pin DIP IC Chip Socket
 - PCB  
 - Stacking Headers - 12-pin and 16-pin female headers  
-- Micro Slide Switch  
+- Micro Slide Switch
+- Dupont wire (Male to Female)
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/53bf3733-9103-43f9-85d4-6a6bcecca483" width="45%" />
@@ -87,7 +88,6 @@ Attach the guiding rail to the 3D-printed sliding door using two bolts.
   <img src="https://github.com/user-attachments/assets/615c9a4e-82b7-4678-bfcf-3889ac4f25fb" width="45%" />
 </p>
 
-- Dupont wire (Male to Female)
 
 Cut the dupont wire into half and solder the wire with the male head on **PROX2**; save the female part for Step 10.
 
@@ -255,7 +255,8 @@ Glue the metal protectors
 
 ## 18. Glue Magnets  
 
-- 14x Round Magnets (8x2mm)  
+- 14x Round Magnets (8x2mm)
+
 Ensure correct polarity (must attract).  
 
 <p float="left">
