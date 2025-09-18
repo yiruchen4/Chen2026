@@ -1,4 +1,4 @@
-**# 🛠️ Building the Social Door
+# 🛠️ Building the Social Door
 
 Follow these steps to assemble the social door system.
 
