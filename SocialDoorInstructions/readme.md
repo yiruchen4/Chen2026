@@ -230,7 +230,7 @@ Ensure correct polarity (must attract).
 ## 20. Drill Cage Holes  
 
 - 5.4 cm hole on cage sides (same height)  
-- Optional: small hole for wires  
+- Optional: small hole for wires coming in and out 
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/87091223-d08d-4332-b043-2f58757a03b0" width="45%" />
@@ -255,7 +255,7 @@ The screen will display:
 - Device number  
 - Sensor readings (left/right cages)  
 - Number of openings  
-- Time since last event  
+- Time (seconds) since last event  
 
 <img src="https://github.com/user-attachments/assets/d07b6b97-99d9-4d34-a7d7-a2719869d967" width="25%" />
 **
