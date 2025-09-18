@@ -53,6 +53,9 @@ Attach the guiding rail to the 3D-printed sliding door using two bolts (M3x6mm).
 
 ## 3. Solder Female Headers on the Adalogger Board  
 
+- Adafruit Feather M0 Adalogger  
+- Header Kit for Feather - 12-pin and 16-pin Female Header Set  
+
 <p float="left">
   <img src="https://github.com/user-attachments/assets/f7f7f8b5-84f6-489f-82af-dd0fba8264f9" width="45%" />
   <img src="https://github.com/user-attachments/assets/aa0316da-8e04-4b43-bb2c-b34c23fa9270" width="45%" />
@@ -61,6 +64,14 @@ Attach the guiding rail to the 3D-printed sliding door using two bolts (M3x6mm).
 ---
 
 ## 4. Solder Key Parts on the PCB  
+
+- 3 pin right-angle male header  
+- JST 2 pin right angle male connector
+- LCA715 solid state relay
+- 6 pin DIP IC Chip Socket
+- PCB  
+- Stacking Headers - 12-pin and 16-pin female headers  
+- Micro Slide Switch  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/53bf3733-9103-43f9-85d4-6a6bcecca483" width="45%" />
@@ -79,7 +90,7 @@ Also solder a cable connector to **PROX2** (for the proximity sensor in Step 10)
 </p>
 
  
-You can have two separate inputs soldered on T1 & T2 (left) or a single input from other devices connected by audio cable (right).    
+You can have two separate inputs soldered on T1 & T2 (left) or a single input from other devices received by audio jack connector (right).    
 <p float="left">
   <img src="https://github.com/user-attachments/assets/bffb9aeb-14b0-4a23-81f3-94ca9b860f31" width="45%" />
   <img src="https://github.com/user-attachments/assets/95413b56-a388-4163-824b-4a7e9836ad74" width="45%" />
