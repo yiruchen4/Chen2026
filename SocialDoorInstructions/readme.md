@@ -14,7 +14,7 @@ Follow these steps to assemble the social door system.
 7. [Install Gear on Motor Servo](#7-install-gear-on-motor-servo)  
 8. [Connect Limit Switch & Servo to PCB](#8-connect-limit-switch--servo-to-pcb)  
 9. [Assemble the Screen, PCB, and Adalogger](#9-assemble-the-screen-pcb-and-adalogger)
-10. [Solder a connector cable on one VL6190 proximity sensor](#10-solder-a-connector-cable-matching-the-cable-connector-on-prox2-from-step-4-on-one-vl6180-proximity-sensor-at-xshut)  
+10. [Solder a connector cable on one VL6190 proximity sensor](#10-solder-a-connector-cable-matching-the-cable-connector-on-prox2-on-one-vl6180-proximity-sensor-at-xshut)  
 11. [Gather All Electronics](#11-gather-all-electronics)  
 12. [Assemble Sliding Door onto Frame](#12-assemble-sliding-door-onto-door-frame)  
 13. [Route Wires Through Feedthroughs](#13-route-wires-through-feedthroughs)  
@@ -42,7 +42,11 @@ Follow these steps to assemble the social door system.
 ---
 
 ## 2. Assemble the Sliding Door  
-Attach the guiding rail to the 3D-printed sliding door using two bolts (M3x6mm).  
+
+- 9mm x 150mm LML9B Miniature Linear Sliding Guide Rail with a 2cm x 3 cm Stainless Steel Carriage Block  
+- Two M3x6mm machine bolts and nuts  
+
+Attach the guiding rail to the 3D-printed sliding door using two bolts.  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/f9893987-b11d-4687-92ca-d13dd58ef95a" width="45%" />
@@ -83,7 +87,10 @@ Attach the guiding rail to the 3D-printed sliding door using two bolts (M3x6mm).
   <img src="https://github.com/user-attachments/assets/615c9a4e-82b7-4678-bfcf-3889ac4f25fb" width="45%" />
 </p>
 
-Also solder a cable connector to **PROX2** (for the proximity sensor in Step 10). 
+- Dupont wire (Male to Female)
+
+Cut the dupont wire into half and solder the wire with the male head on **PROX2**; save the female part for Step 10.
+
 <p float="left">
   <img src="https://github.com/user-attachments/assets/fc3768d6-df0e-4a90-8bfc-3d1ec84b2e99" width="45%" />
   <img src="https://github.com/user-attachments/assets/8a515353-8249-4a63-a098-397339eaaac2" width="45%" />
@@ -100,6 +107,9 @@ You can have two separate inputs soldered on T1 & T2 (left) or a single input fr
 
 ## 5. Solder Male Headers on the Screen Board  
 
+- Adafruit FeatherWing OLED - 128x64 OLED
+- Male header set (come with the screen)  
+
 <p float="left">
   <img src="https://github.com/user-attachments/assets/e063ef8d-93b5-4a89-b78e-45408f57cb70" width="45%" />
   <img src="https://github.com/user-attachments/assets/619cf156-58fc-4366-814a-502087cc4a6d" width="45%" />
@@ -108,6 +118,9 @@ You can have two separate inputs soldered on T1 & T2 (left) or a single input fr
 ---
 
 ## 6. Solder JST 2-Pin Cable to the Limit Switch  
+
+- Micro Limit Switch KW12-3 (AC 250V 5A SPDT, 1 NO 1 NC) with Roller Lever Arm
+- JST PH 2-Pin Cable - Female Connector 100mm  
 - Red wire → middle pin  
 - Black wire → pin farthest from roller  
 
@@ -116,6 +129,8 @@ You can have two separate inputs soldered on T1 & T2 (left) or a single input fr
 ---
 
 ## 7. Install Gear on Motor Servo  
+
+- Feetech FS90R 360 Degree Continuous Rotation Micro Servo Moto
 
 <img src="https://github.com/user-attachments/assets/f101a427-8f81-4508-b420-30ebd819245a" width="40%" />
 
@@ -135,16 +150,21 @@ You can have two separate inputs soldered on T1 & T2 (left) or a single input fr
 
 ---
 
-## 10. Solder a connector cable matching the cable connector on PROX2 (from Step 4) on one VL6180 proximity sensor at XSHUT  
+## 10. Solder a connector cable matching the cable connector on PROX2 on one VL6180 proximity sensor at XSHUT  
 
+- Dupont wire with female head from **Step 4**
+  
 <img src="https://github.com/user-attachments/assets/0731bf5f-79e0-4f90-8ff0-44f7c6b6bc0c" width="45%" />
 
 ---
 
 ## 11. Gather All Electronics  
-- 2× VL6180 sensors (one wired to XSHUT from Step 10)  
-- Real-time clock PCF8523  
-- 3× 4-pin cables (50mm, 100mm, 200mm)  
+
+- Assembled electronics  
+- 2× VL6180 sensors (one wired to XSHUT from **Step 10**)  
+- Real-time clock PCF8523
+- 3V Lithium Coin Cell Battery CR1220 for PCF8523
+- 3× STEMMA QT / Qwiic JST SH 4-pin Cables (50mm, 100mm, 200mm)  
 50 mm 4-pin cable connects the Screen and PCF8523   
 200 mm 4-pin cable connects PCF8523 and VL6180 with wired XSHUT  
 100 mm 4-pin cable connects VL6180 with wired XSHUT and unwired VL6180  
@@ -157,6 +177,8 @@ You can have two separate inputs soldered on T1 & T2 (left) or a single input fr
 ---
 
 ## 12. Assemble Sliding Door onto Door Frame  
+
+- Two M3x16mm machine bolts & nuts
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/57841605-b830-47df-841e-76d6209bd1a8" width="45%" />
@@ -176,6 +198,10 @@ Electronics can be secured with hot glue
 
 ## 14. Fixate the Limit Switch on the Door  
 
+- Limit switch from **Step 8**  
+- Two M2x10mm machine bolts  
+- Two M2 hex nuts  
+  
 ⚠️ Adjust roller arm/height so red button is triggered properly.  
 ⚠️ Ensure bolts (pointed by blue arrows) don’t obstruct sliding path (red dashed line).  
 
@@ -190,7 +216,11 @@ Electronics can be secured with hot glue
 
 ## 15. Install Motor Servo  
 
-Mount with screws and nut → push servo into holder → tighten fully.  
+- Motor servo from **Step 8**  
+- Two M2x8mm machine bolts  
+- Two M2 hex nuts  
+  
+Mount with bolts and nut → push servo into holder → tighten fully.  
  
 <p float="left">
   <img src="https://github.com/user-attachments/assets/694c2ade-4ab5-483f-8809-c90ff027cca6" width="45%" />
@@ -225,6 +255,7 @@ Glue the metal protectors
 
 ## 18. Glue Magnets  
 
+- 14x Round Magnets (8x2mm)  
 Ensure correct polarity (must attract).  
 
 <p float="left">
@@ -236,7 +267,9 @@ Ensure correct polarity (must attract).
 ---
 
 ## 19. Mount Proximity Sensors  
+
 Proximity sensors are secured with hot glue; there are holes on the door frame to locate the sensor's location  
+
 ⚠️ Ensure visibility through the window (pointed by blue arrow). It is critical that the sensors are not obstructed, as clear visibility is essential for the experiment  
 
 <img src="https://github.com/user-attachments/assets/058c5e5a-513f-4ef0-a78e-9842ee97c608" width="45%" />
