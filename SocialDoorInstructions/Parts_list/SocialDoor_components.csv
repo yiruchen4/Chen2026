@@ -20,7 +20,7 @@ M2 hex nuts,4,5.49,0.2196,https://a.co/d/5BaQEry,Price is for 100 of these - you
 LCA715 solid state relay,1,5.85,5.85,https://www.digikey.com/en/products/detail/littelfuse-inc/LCA715/1973278,
 JST 2 pin right angle male connector,1,0.1,0.1,https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626,
 Micro Slide Switch,1,5.99,0.05,https://a.co/d/954UM22,Price is for 120 of these - you only need 1 per door
-
+,,,,,
 Custom fabricated parts:,,,,,
 "3D prints (Doorframe, sliding door, servo gear, door holder & ring)",1,5,5,"See ""3D_designs"" folder",Price is estimatedWe print in PLA+ with  Bambu labs X1C or H2D
 "Metal parts (interaction window, sensor protector)",1,20,20,"See ""Laser_cutting"" folder",Price is estimated. We cut these in 316 or 304 stainless steel using LaserBros
@@ -29,6 +29,7 @@ Custom printed circuit board,1,9.35,3.116666667,"See ""Circuit_board"" folder",P
 (audio connector for single input or wires for multiple inputs are not included but they cost less than $1),,,,,
 ,,,,,
 Total cost per door,,,155.36,,
+
 
 
 
