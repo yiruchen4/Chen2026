@@ -14,7 +14,7 @@ Follow these steps to assemble the social door system.
 7. [Solder JST 2-Pin Cable to the Limit Switch](#7-solder-jst-2-pin-cable-to-the-limit-switch)  
 8. [Install Gear on Motor Servo](#8-install-gear-on-motor-servo)  
 9. [Connect Limit Switch & Servo to PCB](#9-connect-limit-switch--servo-to-pcb)  
-10. [Wire Proximity Sensor to Prox2 Connector](#10-wire-proximity-sensor-to-prox2-connector)  
+10. [Wire Proximity Sensor to PROX2 Connector](#10-wire-proximity-sensor-to-prox2-connector)  
 11. [Gather All Electronics](#11-gather-all-electronics)  
 12. [Assemble Sliding Door onto Frame](#12-assemble-sliding-door-onto-frame)  
 13. [Route Wires Through Feedthroughs](#13-route-wires-through-feedthroughs)  
