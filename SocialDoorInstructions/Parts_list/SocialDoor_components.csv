@@ -1,14 +1,17 @@
-Component,Quantity,Link
-Adafruit Feather M0 Adalogger,1,https://www.adafruit.com/product/2796?srsltid=AfmBOoong0YLzIKUKhxX7jiMX02rDhzZnZLHV_EoBE-kJAqCxSdCUC3a
-Adafruit PCF8523 Real Time Clock Breakout Board - STEMMA QT / Qwiic,1,https://www.adafruit.com/product/5189
-Adafruit FeatherWing OLED - 128x64 OLED Add-on For Feather - STEMMA QT / Qwiic,1,https://www.adafruit.com/product/4650
-Adafruit VL6180X Time of Flight Distance Ranging Sensor (VL6180) - STEMMA QT,2,https://www.adafruit.com/product/3316
-Custom printed circuit board,1,"See ""CircuitBoard"" folder"
-Feetech FS90R 360 Degree Continuous Rotation Micro Servo Moto,1,
-9mm x 150mm LML9B Miniature Linear Sliding Guide Rail with a 2cm x 3 cm Stainless Steel Carriage Block,1,https://www.amazon.com/dp/B07GQ8YNDL?th=1
-"Micro Limit Switch KW12-3 (AC 250V 5A SPDT, 1 NO 1 NC) with Roller Lever Arm",1,https://www.amazon.com/dp/B07X142VGC
-Lithium Ion Battery Pack - 3.7V 4400mAh,1,
-"3D prints (Doorframe, sliding door, servo gear, door holder & ring)",1,
-"Metal parts (interaction window, sensor protector)",1,"See ""LaserCutting"" folder"
-SD card,1,
-Bolts,,
+Description,Quantity,Link,Notes
+Adafruit Feather M0 Adalogger,1,https://www.adafruit.com/product/2796,
+Adafruit PCF8523 Real Time Clock Breakout Board - STEMMA QT / Qwiic,1,https://www.adafruit.com/product/5189,
+Adafruit FeatherWing OLED - 128x64 OLED Add-on For Feather - STEMMA QT / Qwiic,1,https://www.adafruit.com/product/4650,
+Adafruit VL6180X Time of Flight Distance Ranging Sensor (VL6180) - STEMMA QT,2,https://www.adafruit.com/product/3316,
+9mm x 150mm LML9B Miniature Linear Sliding Guide Rail with a 2cm x 3 cm Stainless Steel Carriage Block,1,https://www.amazon.com/dp/B07GQ8YNDL,
+"Micro Limit Switch KW12-3 (AC 250V 5A SPDT, 1 NO 1 NC) with Roller Lever Arm",1,https://www.amazon.com/dp/B07X142VGC,
+Feetech FS90R 360 Degree Continuous Rotation Micro Servo Moto,1,https://www.adafruit.com/product/2442,This is widely available online for cheaper
+Lithium Ion Battery Pack - 3.7V 4400mAh,1,https://www.adafruit.com/product/354,Any 3.7V battery will work here
+SD card,1,https://www.adafruit.com/product/1294,Any microSD card should work
+M3 bolts,,,
+Wiring,,,
+,,,
+Custom fabricated parts:,,,
+"3D prints (Doorframe, sliding door, servo gear, door holder & ring)",1,"See ""3D_designs"" folder",We print in PLA+ with  Bambu labs X1C or H2D
+"Metal parts (interaction window, sensor protector)",1,"See ""Laser_cutting"" folder",We cut these in 316 or 304 stainless steel using LaserBros
+Custom printed circuit board,1,"See ""Circuit_board"" folder",We made these with OshPark but any board fabrication facility will do
