@@ -124,7 +124,7 @@ Inputs:
 
 ---
 
-## 10. Wire Proximity Sensor to Prox2 Connector  
+## 10. Wire Proximity Sensor to PROX2 Connector  
 
 <img src="https://github.com/user-attachments/assets/0731bf5f-79e0-4f90-8ff0-44f7c6b6bc0c" width="45%" />
 
