@@ -42,7 +42,7 @@ Follow these steps to assemble the social door system.
 ---
 
 ## 2. Assemble the Sliding Door  
-Attach the guiding rail to the 3D-printed sliding door using two bolts.  
+Attach the guiding rail to the 3D-printed sliding door using two bolts (M3x6mm).  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/f9893987-b11d-4687-92ca-d13dd58ef95a" width="45%" />
