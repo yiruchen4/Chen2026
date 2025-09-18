@@ -61,7 +61,7 @@ Attach the guiding rail to the 3D-printed sliding door using two screws.
 ---
 
 ## 4. Solder Key Parts on the PCB  
-Also solder a cable connector to **Prox2** (for the proximity sensor in Step 10).  
+Also solder a cable connector to **PROX2** (for the proximity sensor in Step 10).  
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/53bf3733-9103-43f9-85d4-6a6bcecca483" width="45%" />
