@@ -71,13 +71,17 @@ Attach the guiding rail to the 3D-printed sliding door using two bolts.
 
 - 3 pin right-angle male header  
 - JST 2 pin right angle male connector
-- LCA715 solid state relay
+- LCA715 Solid-State Relay
 - 6 pin DIP IC Chip Socket
 - PCB  
 - Stacking Headers - 12-pin and 16-pin female headers  
 - Micro Slide Switch
 - Dupont wire (Male to Female)
-
+  
+**There is a semicircular notch on the 6-pin DIP IC Chip Socket that must face the left side of the PCB (indicated on the board as well)**  
+  
+After soldering the chip socket, plug in the LCA715 Solid-State Relay above the socket. **The semicircular notch on the solid-state relay also faces the left side of the PCB (same as the socket)**  
+  
 <p float="left">
   <img src="https://github.com/user-attachments/assets/53bf3733-9103-43f9-85d4-6a6bcecca483" width="45%" />
   <img src="https://github.com/user-attachments/assets/5a1d0375-ec48-4825-b620-a19b71d87875" width="45%" />
