@@ -101,7 +101,7 @@ Cut the dupont wire into half and solder the wire with the male head on **PROX2*
 </p>
 
  
-You can have two separate inputs soldered on T1 & T2 (left) or a single input from other devices received by audio jack connector (right).    
+You can have two separate inputs soldered on T1 & T2 (left) or a single input from other devices received by 3.5 mm audio connector (DigiKey SJ-3523-SMT-TR) (right).    
 <p float="left">
   <img src="https://github.com/user-attachments/assets/bffb9aeb-14b0-4a23-81f3-94ca9b860f31" width="45%" />
   <img src="https://github.com/user-attachments/assets/95413b56-a388-4163-824b-4a7e9836ad74" width="45%" />
