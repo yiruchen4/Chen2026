@@ -7,19 +7,19 @@ void open_door() {
   digitalWrite(11, HIGH);
   digitalWrite(10, HIGH);
   int k = 0;
-  open_the_door(k);
+  open_on_the_way(k);
 
   door_wait_open();
   int j = 0;
   close_door();                                                 // v2: can have another close_door(); when pausing for a few seconds.                                                   //v2
-  while ((door == 1 or door == -2 or door == 418) and j < 2) {  //v2
+  while ((door == 1 or door == -2) and j < 2) {  //v2
     delay(3000);                                                //v2
     close_door();                                              //v2
     j++;                                                        //v2
   }                                                             //v2
 }
 
-void open_the_door(int &k) {
+void open_on_the_way(int &k) {
   myservo.attach(A0);  // attaches the servo on pin A0 to the servo object
   myservo.write(104);  // tell servo to go to position in variable 'pos'
   //wait for door to open
@@ -50,14 +50,14 @@ void open_the_door(int &k) {
       last_door_sensor_state = current_door_sensor_state;
 
       if (millis() - startopening > 6000) {
-        door = 418;
+        door = 0;
         break;
       }
     }
   } else if (k < 2) {
     k++;
     delay(1000);
-    open_the_door(k);
+    open_on_the_way(k);
   }
 
   // //read while door opening
@@ -115,20 +115,20 @@ void close_door() {
   delay(400);
   myservo.write(69);  //v2
 
-
+  unsigned long startclosing = millis();
+  int last_door_sensor_state = LOW;  // global or static variable
+  
   if (button == 0) {
     door = 0;
   } else if (button == -1) {
     door = -1;
   }
 
-  //wait 0.5s for door to start closing
+  //wait 0.5s for door to close
   for (int i = 0; i < 4; i++) {
     read_sensors();
   }
 
-  unsigned long startclosing = millis();
-  int last_door_sensor_state = LOW;  // global or static variable
   if (digitalRead(A3) == LOW) {
     while (last_door_sensor_state == LOW) {
       read_sensors();
@@ -146,7 +146,7 @@ void close_door() {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startclosing > 4500) {
+      if (millis() - startclosing > 6000) {
         myservo.write(90);
         door = 418;
         break;
@@ -207,9 +207,7 @@ void open_door_startup() {
 void open_door_button() {
   // screen_time = millis();
   // door = -99;
-  if (door == 0) {
-    door = -1;
-  }
+  door = -1;
   button = -1;  //5/17/24 moved here
   open_num++;
   new_trial = millis() / 1000.000;
@@ -218,9 +216,7 @@ void open_door_button() {
   // delay(1000);
   // if (digitalRead(5) == LOW) {
   open_door();
-  if (door == -1) {
-    door = 0;
-  }
+  door = 0;
 
   // }
   // door = 0;
