@@ -42,7 +42,7 @@ Follow these steps to assemble the social door system.
 - Holder ring ×2  
 - Gear ×1  
 
-img src="https://github.com/user-attachments/assets/b1a3faff-019e-469d-88d2-8d6409834e4e" width="60%" />
+<img src="https://github.com/user-attachments/assets/b1a3faff-019e-469d-88d2-8d6409834e4e" width="60%" />
 
 ---
 
@@ -53,10 +53,10 @@ img src="https://github.com/user-attachments/assets/b1a3faff-019e-469d-88d2-8d64
 
 Attach the guiding rail to the 3D-printed sliding door using two bolts.  
 
-p float="left">
-  img src="https://github.com/user-attachments/assets/f9893987-b11d-4687-92ca-d13dd58ef95a" width="45%" />
-  img src="https://github.com/user-attachments/assets/62a38295-c9ed-4fd5-a22c-2f609f14f326" width="45%" />
-/p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/f9893987-b11d-4687-92ca-d13dd58ef95a" width="45%" />
+  <img src="https://github.com/user-attachments/assets/62a38295-c9ed-4fd5-a22c-2f609f14f326" width="45%" />
+</p>
 
 ---
 
@@ -65,10 +65,10 @@ p float="left">
 - Adafruit Feather M0 Adalogger  
 - Header Kit for Feather - 12-pin and 16-pin Female Header Set  
 
-p float="left">
-  img src="https://github.com/user-attachments/assets/f7f7f8b5-84f6-489f-82af-dd0fba8264f9" width="45%" />
-  img src="https://github.com/user-attachments/assets/aa0316da-8e04-4b43-bb2c-b34c23fa9270" width="45%" />
-/p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/f7f7f8b5-84f6-489f-82af-dd0fba8264f9" width="45%" />
+  <img src="https://github.com/user-attachments/assets/aa0316da-8e04-4b43-bb2c-b34c23fa9270" width="45%" />
+</p>
 
 ---
 
