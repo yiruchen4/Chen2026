@@ -256,7 +256,7 @@ Make sure servo gear is fully engaged with the sliding door teeth
 
 Glue the metal protectors  
 <p float="left">
-  img src="https://github.com/user-attachments/assets/5f8b9d9d-0d08-406d-95a9-4fe2d052499f" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5f8b9d9d-0d08-406d-95a9-4fe2d052499f" width="45%" />
   <img src="https://github.com/user-attachments/assets/94a0f493-4be0-4475-b8a1-bf1ac39d9a54" width="45%" />
 </p>
 
@@ -318,4 +318,3 @@ The screen will display:
 - Time (seconds) since last event  
 
 <img src="https://github.com/user-attachments/assets/d07b6b97-99d9-4d34-a7d7-a2719869d967" width="25%" />
-**
