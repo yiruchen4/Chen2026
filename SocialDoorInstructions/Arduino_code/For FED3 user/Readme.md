@@ -4,4 +4,4 @@ Option 1: Replace the "src" folder if you haven't modified your FED3 libarary.
 
 Option 2: Find the the new function called "Social_Feed" in src/FED3.cpp; copy and paste it in your own src/FED3.cpp file within the Feeding functions section).  
 
-Feel free to contact us if you have any issues :)  
+Feel free to contact us if you have any questions :)  
