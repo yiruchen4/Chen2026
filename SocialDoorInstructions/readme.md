@@ -8,6 +8,8 @@
 Follow these steps to assemble the social door system.  
 <img width="322" height="219" alt="image" src="https://github.com/user-attachments/assets/44fdd049-cc08-43ee-934d-60fed3f00e5d" />
 
+If you have any questions, feel free to contact us :)  
+
 ---
 
 ## 📑 Table of Contents
@@ -313,6 +315,7 @@ Special code needs to be flashed on PCF8523 (See "Arduino_code" folder).
 Press Button C will show the current reading for 20s.  
 Press Button B will open the door manually.  
 Press Button Reset will restart the door (you previous results should be saved well, a new data file will be created by resetting).  
+When starting the Social Door, pressing Button B and C allows you to change the Device Number.  
 
 The screen will display:  
 - Battery level  
