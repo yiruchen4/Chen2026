@@ -312,6 +312,7 @@ Special code needs to be flashed on PCF8523 (See "Arduino_code" folder).
   
 Press Button C will show the current reading for 20s.  
 Press Button B will open the door manually.  
+Press Button Reset will restart the door (you previous trials should be saved well but a new file will be created by resetting).  
 
 The screen will display:  
 - Battery level  
