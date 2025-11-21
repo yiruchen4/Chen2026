@@ -287,29 +287,6 @@ void FED3::Social_Feed(int pulse, bool pixelsoff) {
       display.fillCircle(25, 99, 5, BLACK);
       display.refresh();
       retInterval = (millis() - pelletTime);
-      //while pellet is present and under 60s has elapsed
-      
-      // while (digitalRead (PELLET_WELL) == LOW) {
-      //   if (digitalRead(LEFT_POKE) == LOW) {  //If left poke is triggered
-      //     PelletAvailable = false;
-      //     logLeftPoke();                 //Log left poke
-      //     if (leftInterval < (minPokeTime)) {
-      //       Click();
-      //     } else {
-      //       ConditionedStimulus();  //Deliver conditioned stimulus (tone and lights)
-      //       BNC(500, 1);            //open door
-      //       Timeout(15);
-      //     }
-      //   }
-
-      //   if (digitalRead(RIGHT_POKE) == LOW) {  //If right poke is triggered
-      //     PelletAvailable = false;
-      //     logRightPoke();
-      //     if (rightInterval >= (minPokeTime)) {
-      //       Click();
-      //     }
-      //   }
-      // }
 
       ReleaseMotor ();
       PelletCount++;
