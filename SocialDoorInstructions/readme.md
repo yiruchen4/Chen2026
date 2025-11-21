@@ -5,7 +5,8 @@
   
 # 🛠️ Building the Social Door
 
-Follow these steps to assemble the social door system.
+Follow these steps to assemble the social door system.  
+<img width="322" height="219" alt="image" src="https://github.com/user-attachments/assets/44fdd049-cc08-43ee-934d-60fed3f00e5d" />
 
 ---
 
