@@ -309,6 +309,9 @@ Secure the assembly in place with the door rings.
 
 All done! Congrats!! For the next step, you can flash the code on the adalogger board, insert a SD card, and test the door.  
 Special code needs to be flashed on PCF8523 (See "Arduino_code" folder).  
+  
+Press Button C will show the current reading for 20s.  
+Press Button B will open the door manually.  
 
 The screen will display:  
 - Battery level  
