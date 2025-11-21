@@ -9,8 +9,8 @@
   // 1 Nose poke for Social Door
   // 2 Nose poke for feeding (right side)
 
-  alexxai@wustl.edu
-  December, 2020
+  c.yiru@wustl.edu
+  November, 2025
 
   This project is released under the terms of the Creative Commons - Attribution - ShareAlike 3.0 license:
   human readable: https://creativecommons.org/licenses/by-sa/3.0/
