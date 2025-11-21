@@ -318,4 +318,4 @@ The screen will display:
 - Time (seconds) since last event  
 
 <img src="https://github.com/user-attachments/assets/d07b6b97-99d9-4d34-a7d7-a2719869d967" width="25%" />
-**
+  
