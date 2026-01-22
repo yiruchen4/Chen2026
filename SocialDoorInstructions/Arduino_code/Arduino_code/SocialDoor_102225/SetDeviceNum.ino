@@ -23,19 +23,19 @@ void set_device_num() {
 
     if (digitalRead(6) == LOW) {
       SOC++;
-      delay(300);
+      delay(250);
       functiontime = millis();
-      if (SOC > 99) {
+      if (SOC > 999) {
         SOC = 0;
       }
     }
 
     if (digitalRead(5) == LOW) {
       SOC--;
-      delay(300);
+      delay(250);
       functiontime = millis();
       if (SOC < 0) {
-        SOC = 50;
+        SOC = 999;
       }
     }
   }
