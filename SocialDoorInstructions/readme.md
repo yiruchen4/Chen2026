@@ -292,6 +292,7 @@ Proximity sensors are secured with hot glue; there are holes on the door frame t
 ## 20. Drill Cage Holes  
 
 - Drill one 5.4-cm hole on either the right or left side of the home cages to make a pair (ensure the holes are drilled at the same height in both cages for proper alignment)  
+⚠️ The height of holes should allow the sliding door to move freely on the guiding rail
 - Optional: small hole for wires coming in and out 
 
 <p float="left">
@@ -324,6 +325,8 @@ The screen will display:
 - Sensor readings (left/right cages)  
 - Number of openings  
 - Time (seconds) since last event  
+
+### To process the door data, you can run "doordata_process.ipynb" (also in the SocialDoorInstructions folder) on Colab   
 
 <img src="https://github.com/user-attachments/assets/d07b6b97-99d9-4d34-a7d7-a2719869d967" width="25%" />
   
