@@ -1,5 +1,5 @@
-# Check our preprint here:  
-## https://www.biorxiv.org/content/10.1101/2025.08.21.671364v2  
+# Check our paper here:  
+## Published in Cell Reports Methods (2026). Available at: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(26)00074-3
 
 ---  
   
