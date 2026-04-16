@@ -25,7 +25,7 @@ void open_on_the_way(int &k) {
   unsigned long startopening = millis();
   myservo.write(103);  // tell servo to go to position in variable 'pos'
   //wait for door to open
-  for (int i = 0; i < 2; i++) {
+  for (int i = 0; i < 4; i++) {
     read_sensors();
   }
   //read while door opening
@@ -116,7 +116,7 @@ void close_door() {
   }
 
   //wait 0.5s for door to close
-  for (int i = 0; i < 2; i++) {
+  for (int i = 0; i < 4; i++) {
     read_sensors();
   }
 
