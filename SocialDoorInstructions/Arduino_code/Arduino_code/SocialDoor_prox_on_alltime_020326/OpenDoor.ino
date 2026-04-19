@@ -64,9 +64,6 @@ void open_on_the_way(int &k) {
 
   digitalWrite(10, LOW);
 
-
-  // } else if (last_door_sensor_state == 1) {
-  //   door = 418;
 }
 
 void door_wait_open() {

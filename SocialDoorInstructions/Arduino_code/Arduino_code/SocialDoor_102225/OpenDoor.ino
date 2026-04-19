@@ -49,7 +49,7 @@ void open_on_the_way(int &k) {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startopening > 6000) {
+      if (millis() - startopening > 6000) { //servo stops functioning if the servo operating time exceeds 6 seconds
         door = 0;
         break;
       }
@@ -137,7 +137,7 @@ void close_door() {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startclosing > 5000) {
+      if (millis() - startclosing > 5000) { //servo stops functioning if the servo operating time exceeds 5 seconds
         myservo.write(90);
         door = 418;
         break;
