@@ -11,24 +11,25 @@ void open_door() {
 
   door_wait_open();
   int j = 0;
-  close_door();                                                 // v2: can have another close_door(); when pausing for a few seconds.                                                   //v2
+  close_door();                                  // v2: can have another close_door(); when pausing for a few seconds.                                                   //v2
   while ((door == 1 or door == -2) and j < 2) {  //v2
-    delay(3000);                                                //v2
-    close_door();                                              //v2
-    j++;                                                        //v2
-  }                                                             //v2
+    delay(3000);                                 //v2
+    close_door();                                //v2
+    j++;                                         //v2
+  }                                              //v2
 }
 
 void open_on_the_way(int &k) {
   myservo.attach(A0);  // attaches the servo on pin A0 to the servo object
+  //read while door opening
   door_open = millis();
   unsigned long startopening = millis();
   myservo.write(103);  // tell servo to go to position in variable 'pos'
   //wait for door to open
-  for (int i = 0; i < 4; i++) {
+  for (int i = 0; i < OP_i; i++) {
     read_sensors();
   }
-  //read while door opening
+
   digitalWrite(A1, LOW);
   int last_door_sensor_state = LOW;  // global or static variable
   if (digitalRead(A3) == LOW) {
@@ -49,7 +50,7 @@ void open_on_the_way(int &k) {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startopening > 6000) { //servo stops functioning if the servo operating time exceeds 6 seconds
+      if (millis() - startopening > 5000) {
         door = 0;
         break;
       }
@@ -70,16 +71,17 @@ void door_wait_open() {
   myservo.detach();
   digitalWrite(11, LOW);
 
+  door = 1; // This code allows the Door == 1 even when the door fails to open. Please test the door before experiment to make sure proper parameters 
   //wait 12s for door to close
   unsigned long startTime = millis();
-  while (millis() - startTime < 12000) { // Reward window is 12 s, change the number as you want
+  while (millis() - startTime < 12000) {
     read_sensors();  // Read sensors continuously
     // Optionally, add a short delay to prevent overwhelming the sensor readings
     delay(10);  // Delay 10 milliseconds to ease the loop
   }
 
-////// IF YOU WANT TO RESTRICT THE REWARD WINDOW TO A FIXED DURATION, JUST COMMENT OUT THE FOLLOWING CODE //////
-  //leave the door open when the test mouse stays at the door until 60s
+  ////// IF YOU WANT TO RESTRICT THE REWARD WINDOW TO A FIXED DURATION, JUST COMMENT OUT THE FOLLOWING CODE //////
+  //leave the door open when the test mouse stays at the door
   while ((Range2 <= 50) and (millis() - startTime <= 60000)) {
     read_sensors();
   }
@@ -91,8 +93,7 @@ void door_wait_open() {
       i = 0;
     }
   }
-////////////////////////////////////////////////// UP TO HERE //////////////////////////////////////////////////
-
+  ////////////////////////////////////////////////// UP TO HERE //////////////////////////////////////////////////
 }
 
 
@@ -104,11 +105,11 @@ void close_door() {
   delay(300);          //version 2 - to alert the mouse
   myservo.write(103);  //v2
   delay(400);
-  myservo.write(69);  //v2
+  myservo.write(68);  //v2
 
   unsigned long startclosing = millis();
   int last_door_sensor_state = LOW;  // global or static variable
-  
+
   if (button == 0) {
     door = 0;
   } else if (button == -1) {
@@ -116,7 +117,7 @@ void close_door() {
   }
 
   //wait 0.5s for door to close
-  for (int i = 0; i < 4; i++) {
+  for (int i = 0; i < CL_i; i++) {
     read_sensors();
   }
 
@@ -137,7 +138,7 @@ void close_door() {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startclosing > 5000) { //servo stops functioning if the servo operating time exceeds 5 seconds
+      if (millis() - startclosing > 5000) {
         myservo.write(90);
         door = 418;
         break;
@@ -154,6 +155,16 @@ void close_door() {
     read_sensors();
   }
 
+
+  // while (digitalRead(A3) == LOW) {
+  //   read_sensors();
+  //   if (millis() - startclosing > 4500) {
+  //     myservo.write(90);
+  //     door = 418;
+  //     break;
+  //   }
+  // }  //wait here until switch
+
   myservo.write(90);  // tell servo to go to position in variable 'pos'
   myservo.detach();
   digitalWrite(11, LOW);
@@ -168,7 +179,7 @@ void open_door_startup() {
   myservo.write(103);  // tell servo to go to position in variable 'pos'
 
   //wait 1s for door to start opening
-  for (int i = 0; i < 10; i++) {
+  for (int i = 0; i < 2 * OP_i; i++) {
     delay(100);
   }
 
@@ -186,13 +197,19 @@ void open_door_startup() {
 }
 
 void open_door_button() {
-
+  // screen_time = millis();
+  // door = -99;
   door = -1;
-  button = -1;
+  button = -1;  //5/17/24 moved here
   open_num++;
   new_trial = millis() / 1000.000;
   read_sensors();
+  // update_display();  // For a press shorter than 1.2 s, screen will show up. Longer than 1.2 s, door will open.
+  // delay(1000);
+  // if (digitalRead(5) == LOW) {
   open_door();
   door = 0;
 
+  // }
+  // door = 0;
 }
