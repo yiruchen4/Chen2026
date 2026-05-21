@@ -62,7 +62,6 @@ void open_on_the_way(int &k) {
   }
 
   digitalWrite(10, LOW);
-
 }
 
 void door_wait_open() {
@@ -71,7 +70,11 @@ void door_wait_open() {
   myservo.detach();
   digitalWrite(11, LOW);
 
-  door = 1; // This code allows the Door == 1 even when the door fails to open. Please test the door before experiment to make sure proper parameters 
+  if (button == 0 or door == 1) {
+    door = 1;
+  } else if (button == -1 or door == -2) {
+    door = -2;
+  }  // This code allows the Door == 1 even when the door fails to open. Please test the door before experiment to make sure proper parameters
   //wait 12s for door to close
   unsigned long startTime = millis();
   while (millis() - startTime < 12000) {
