@@ -31,7 +31,7 @@ void update_display() {
     display.println("Openings");
     display.println(open_num);
     display.println();
-    display.println((millis() - door_open) / 1000, 0);
+    display.println((millis() - door_open) / 1000.0, 0);
     display.display();
   }
 }
