@@ -33,12 +33,12 @@ Adafruit_SH1107 display = Adafruit_SH1107(64, 128, &Wire);
 //variables
 float Range1;
 float Range2;
-int SOC;        //This is the unique # of the device
+int SOC;  //This is the unique # of the device
 int OP_i;
 int CL_i;
 char filename[30];  // make a "char" type variable called "filename" [13]
 unsigned long startreading = millis();
-float new_trial = millis() / 1000.000;
+unsigned long new_trial = millis();
 int event = 0;
 int door = 0;
 
@@ -55,5 +55,5 @@ Servo myservo;  // create servo object to control a servo
 const int chipSelect = 4;
 File logfile;     // Create file object
 File configfile;  // Create another file object
-File servoopen;  // Create another file object
-File servoclose; 
+File servoopen;   // Create another file object
+File servoclose;

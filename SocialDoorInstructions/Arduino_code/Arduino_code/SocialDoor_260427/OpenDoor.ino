@@ -205,7 +205,7 @@ void open_door_button() {
   door = -1;
   button = -1;  //5/17/24 moved here
   open_num++;
-  new_trial = millis() / 1000.000;
+  new_trial = millis();
   read_sensors();
   // update_display();  // For a press shorter than 1.2 s, screen will show up. Longer than 1.2 s, door will open.
   // delay(1000);

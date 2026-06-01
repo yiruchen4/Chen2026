@@ -27,7 +27,7 @@ void loop() {
   if (digitalRead(12) == HIGH) {
     button = 0;
     open_num++;
-    new_trial = millis() / 1000.000;
+    new_trial = millis();
     open_door();
   }
 

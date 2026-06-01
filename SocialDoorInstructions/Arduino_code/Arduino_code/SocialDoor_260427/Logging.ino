@@ -11,9 +11,9 @@ void logdata() {
     Serial.println("Card failed, or not present");
     error();
   }
-  
+
   digitalWrite(13, HIGH);
-  float timer = millis() / 1000.000;
+  unsigned long timer = millis();
   DateTime now = rtc.now();
   digitalWrite(13, LOW);
   // getFilename(filename);
@@ -30,7 +30,7 @@ void logdata() {
   logfile.print(':');
   logfile.print(now.second());
   logfile.print(",");
-  logfile.print(timer - new_trial, 3);  // Print time in seconds
+  logfile.print((timer - new_trial) / 1000.000, 3);  // Print time in seconds
   logfile.print(",");
   logfile.print(SOC);  // Print device name
   logfile.print(",");
