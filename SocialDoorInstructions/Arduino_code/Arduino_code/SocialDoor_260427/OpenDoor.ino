@@ -50,7 +50,7 @@ void open_on_the_way(int &k) {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startopening > 5000) {
+      if (millis() - startopening > 3500) {
         door = 0;
         break;
       }
@@ -85,15 +85,18 @@ void door_wait_open() {
 
   ////// IF YOU WANT TO RESTRICT THE REWARD WINDOW TO A FIXED DURATION, JUST COMMENT OUT THE FOLLOWING CODE //////
   //leave the door open when the test mouse stays at the door
-  while ((Range2 <= 50) and (millis() - startTime <= 60000)) {
+  while ((Range2 <= 50) and (millis() - startTime <= 58500)) { //58.5 sec
     read_sensors();
   }
 
-  //wait for ~1.3 second with Range2 < 50 before closing door
-  for (int i = 0; i < 10; i++) {
+  //wait for ~1.5 second with Range2 < 50 before closing door
+  unsigned long waiting = millis();
+
+  while (millis() - waiting < 1500) {
     read_sensors();
-    if ((Range2 <= 50) and (millis() - startTime <= 60000)) {
-      i = 0;
+
+    if ((Range2 <= 50) && (millis() - startTime <= 58500)) {
+      waiting = millis();
     }
   }
   ////////////////////////////////////////////////// UP TO HERE //////////////////////////////////////////////////
@@ -141,7 +144,7 @@ void close_door() {
 
       last_door_sensor_state = current_door_sensor_state;
 
-      if (millis() - startclosing > 5000) {
+      if (millis() - startclosing > 4000) {
         myservo.write(90);
         door = 418;
         break;
@@ -191,7 +194,7 @@ void open_door_startup() {
   //read while door opening
   while (digitalRead(A3) == LOW) {
     read_sensors();
-    if (millis() - startopening > 5000) {
+    if (millis() - startopening > 3500) {
       break;
     }
   }
