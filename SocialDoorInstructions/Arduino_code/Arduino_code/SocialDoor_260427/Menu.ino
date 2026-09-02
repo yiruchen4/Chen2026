@@ -17,7 +17,7 @@ const uint8_t BUTTON_C = 5;
 const uint8_t BUTTON_B = 6;
 
 const unsigned long MENU_START_WINDOW_MS = 3000;
-const unsigned long MENU_HOLD_MS = 600;
+const unsigned long MENU_HOLD_MS = 50;
 const unsigned long RTC_INACTIVITY_MS = 3000;
 
 
