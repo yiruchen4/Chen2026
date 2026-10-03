@@ -54,11 +54,15 @@ void StartUpCommands() {
   // Always LOAD settings, but do not force the user through edit screens.
   loadSavedSettings();
 
-  // Show the startup page for 3 seconds.
-  // Holding BOTH B + C for >= 600 ms opens the settings menu.
-  // Otherwise this returns after 3 seconds and setup continues normally.
-  if (startupMenuRequested()) {
+  // Keep returning to the startup menu after settings.
+  // If B+C is NOT pressed during the 3-second window,
+  // continue with normal program setup.
+  while (startupMenuRequested()) {
+
     runSettingsMenu();
+
+    // Reload anything that may have changed in the settings menu
+    loadSavedSettings();
   }
 
   screen_time = millis();

@@ -5,7 +5,7 @@
 //
 // Startup behavior:
 //   - Startup screen is shown for 3 seconds.
-//   - Hold B + C for 600 ms during that window to enter settings.
+//   - Hold B + C for 50 ms during that window to enter settings.
 //   - If settings are entered, pages run automatically in this order:
 //       1. Device number      (existing set_device_num())
 //       2. Servo iterations   (existing set_servo_iternum())
