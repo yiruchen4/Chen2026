@@ -32,6 +32,8 @@ Adafruit_SH1107 display = Adafruit_SH1107(64, 128, &Wire);
 float Range1;
 float Range2;
 int SOC; //This is the unique # of the device
+int OP_i;
+int CL_i;
 char filename[30];                         // make a "char" type variable called "filename"
 unsigned long startreading = millis();
 int event = 0;
@@ -50,3 +52,5 @@ Servo myservo;  // create servo object to control a servo
 const int chipSelect = 4;
 File logfile;         // Create file object
 File configfile;  // Create another file object
+File servoopen;   // Create another file object
+File servoclose;

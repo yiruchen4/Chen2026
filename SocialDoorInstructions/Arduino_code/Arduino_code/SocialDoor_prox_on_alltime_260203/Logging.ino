@@ -9,7 +9,7 @@ void writeHeader() {
 void logdata() {
 
   digitalWrite (13, HIGH);
-  float timer = millis() / 1000.000;
+  unsigned long timer = millis();
   DateTime now = rtc.now();
   digitalWrite(13, LOW);
   // getFilename(filename);
@@ -26,7 +26,7 @@ void logdata() {
   logfile.print(':');
   logfile.print(now.second());
   logfile.print(",");
-  logfile.print(timer, 3);  // Print time in seconds
+  logfile.print(timer / 1000.000, 3);  // Print time in seconds
   logfile.print(",");
   logfile.print(SOC);  // Print device name
   logfile.print(",");
@@ -59,4 +59,20 @@ void writeConfigFile() {
   configfile.println(SOC);
   configfile.flush();
   configfile.close();
+}
+
+void writeConfigFile2() {
+  servoopen = SD.open("ServoOpening.csv", FILE_WRITE);
+  servoopen.rewind();
+  servoopen.println(OP_i);
+  servoopen.flush();
+  servoopen.close();
+}
+
+void writeConfigFile3() {
+  servoclose = SD.open("ServoClosing.csv", FILE_WRITE);
+  servoclose.rewind();
+  servoclose.println(CL_i);
+  servoclose.flush();
+  servoclose.close();
 }
