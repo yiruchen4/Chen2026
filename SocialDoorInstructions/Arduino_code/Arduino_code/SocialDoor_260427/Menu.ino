@@ -95,13 +95,22 @@ bool startupMenuRequested() {
   unsigned long bothPressedStart = 0;
 
   while (millis() - startTime < MENU_START_WINDOW_MS) {
+
     display.oled_command(SH110X_DISPLAYON);
     display.clearDisplay();
-    display.setCursor(0, 8);
-    display.println("Starting...");
-    display.println();
+
+    // Battery info
+    ReadBatteryLevel();
+    DisplayBattery();
+
+    display.setCursor(21, 2);
+    display.print(measuredvbat);
+
+    // Menu prompt
+    display.setCursor(0, 24);
     display.println("Hold B+C");
     display.println("for setup");
+
     display.display();
 
     bool bothPressed =
@@ -117,6 +126,7 @@ bool startupMenuRequested() {
         waitForMenuButtonsRelease();
         return true;
       }
+
     } else {
       bothPressedStart = 0;
     }
