@@ -157,9 +157,11 @@ void opto_check() {
 
   for (int i = 0; i < 20; i++) {
     digitalWrite(A2, HIGH);
+    digitalWrite(A1, HIGH);
     delay(10);
 
     digitalWrite(A2, LOW);
+    digitalWrite(A1, LOW);
     delay(40);
   }
 }
