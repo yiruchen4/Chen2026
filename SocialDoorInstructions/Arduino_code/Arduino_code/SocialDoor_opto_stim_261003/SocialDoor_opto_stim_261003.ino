@@ -40,6 +40,8 @@ void loop() {
     open_door_button();
   }
 
+  // After the screen turns on after single press on Button C,
+  // quickly press Button C for 3+ times will display opto windows and emit 1s 20Hz opto light
   if (digitalRead(5) == LOW) {
     screen_time = millis();
     int origin_door = door;
@@ -71,8 +73,7 @@ void loop() {
 bool time_in_window(
   int currentTime,
   int startTime,
-  int endTime
-) {
+  int endTime) {
 
   // Equal start/end = disabled
   if (startTime == endTime) {
@@ -84,17 +85,13 @@ bool time_in_window(
   if (startTime < endTime) {
 
     return (
-      currentTime >= startTime &&
-      currentTime < endTime
-    );
+      currentTime >= startTime && currentTime < endTime);
   }
 
   // Window crosses midnight
   // Example: 23:00 -> 01:00
   return (
-    currentTime >= startTime ||
-    currentTime < endTime
-  );
+    currentTime >= startTime || currentTime < endTime);
 }
 
 bool check_opto_trial() {
