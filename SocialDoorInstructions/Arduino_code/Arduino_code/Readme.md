@@ -1,6 +1,6 @@
 ## Choose the SocialDoor code that fits your needs  
   
-*All the SocialDoor code assumes the right side (Prox2) is the Test subject and the left side (Prox1) is the Stimulus subject. By default, the door opens for 12s and will stay open if Prox2 <= 50 mm (when the Test subject stays at the door) until the Test subject is out of this range or the opening time reaches 60s. So don't forget to change the corresponding code lines if you have the opposite setting.*
+*All SocialDoor codes assume the right side (Prox2) is the Test subject and the left side (Prox1) is the Stimulus subject. By default, the door opens for 12s and will stay open if Prox2 <= 50 mm (when the Test subject stays at the door) until the Test subject is out of this range or the opening time reaches 60s. So don't forget to change the corresponding code lines if you have a different setting.*
   
 **SocialDoor_260427**  
 Recommended for long-term experiments. This version includes a sleep mode to conserve power. Proximity data are recorded only when the door is triggered and continue until the door closes. It is the upgraded version of *SocialDoor_251022*, allowing customization of the servo operation time for proper door opening and closing, and reducing damage to the servo. It also has an optional Menu page to change device number, servo operation time, and datetime. You can add customized settings (e.g. difference modes) as you needed (not provided here).    
