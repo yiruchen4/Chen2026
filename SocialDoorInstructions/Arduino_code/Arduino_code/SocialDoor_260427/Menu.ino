@@ -105,9 +105,24 @@ bool startupMenuRequested() {
 
     display.setCursor(21, 2);
     display.print(measuredvbat);
+    display.setCursor(0, 13);
+    DateTime nowprint = rtc.now();
+    display.print(nowprint.year());
+    display.print('-');
+    display.print(nowprint.month());
+    display.print('-');
+    display.println(nowprint.day());
+    display.print(nowprint.hour());
+    display.print(':');
+    display.print(nowprint.minute());
+    display.print(':');
+    display.println(nowprint.second());
+    display.setCursor(0, 34);
+    display.print("Device# ");
+    display.println(SOC);
 
     // Menu prompt
-    display.setCursor(0, 24);
+    display.setCursor(0, 60);
     display.println("Hold B+C");
     display.println("for setup");
 
